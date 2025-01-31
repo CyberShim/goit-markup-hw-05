@@ -136,18 +136,17 @@ p {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  background-color: transparent;
+  outline: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: transparent;
   padding-left: 38px;
 }
 
 .modal-input:valid {
-  background-color: #c7e7cd39;
 }
 
 .modal-input:invalid {
-  background-color: #cea0a069;
 }
 
 .modal-input:focus {
@@ -233,8 +232,6 @@ p {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-  align-items: center;
 }
 
 .modal-check-item {
